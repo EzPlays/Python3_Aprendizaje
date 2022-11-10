@@ -33,11 +33,11 @@ def dividir():
     while True:
         try:
             numero = int(input('ingrese un numero: '))
-            division = 40/numero
+            division = 10/numero
             print(division)
             break
         except ValueError:
-            print('inrese un numero nu una cadena de texto')
+            print('inrese un numero no una cadena de texto')
         except ZeroDivisionError:
             print("no se puede realizar una divicion entre 0")
         except Exception as e:
